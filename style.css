@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 90%;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 2em;
+    color: lightsalmon;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5 {
+    position: relative;
+    opacity: 0.60;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img1 {
+    background-image: url(https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    height: 100vh;
+}
+
+.img2 {
+    background-image: url(https://images.unsplash.com/photo-1565118531796-763e5082d113?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    min-height: 600px;
+}
+
+.img3 {
+    background-image: url(https://images.unsplash.com/photo-1486912500284-6f2462ba07ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1185&q=80);
+    min-height: 600px;
+}
+
+.img4 {
+    background-image: url(https://images.unsplash.com/photo-1505852679233-d9fd70aff56d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    min-height: 600px;
+}
+
+.img5 {
+    background-image: url(https://images.unsplash.com/photo-1494280986787-c49b328829dd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    height: 100vh;
+}
+
+.section {
+    text-align: center;
+    padding: 60px;
+}
+
+.section-1 {
+    background-color: indigo;
+    color: honeydew;
+}
+
+.section-2 {
+    background-color: #ffc1a8;
+    color: #753f1e;
+}
+
+.section-3 {
+    background-color: #640e8f;
+    color: #f5acac;
+}
+
+.section-4 {
+    background-color: #466c8d;
+    color: #cfc4b4;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 38px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border {
+    background-color: #112;
+    color: beige;
+    padding: 25px;
+}
+
+.ptext .border .trans {
+    background-color: transparent;
+}
+
+@media(max-width:568px) {
+
+    .pimg1,
+    .pimg2,
+    .pimg3 {
+        background-attachment: scroll;
+    }
+}
